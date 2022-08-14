@@ -1,12 +1,15 @@
 # instagram-clone
 
-Exemplo de pagina feita em Html e Css,
 
 Projeto Bootcamp Inpulso junto com a Dio
 
 
 
 ![alt](https://raw.githubusercontent.com/diegobda/instagram-clone/master/Screenshot%20from%202022-08-14%2000-12-09.png)
+
+
+<h2>Exemplo de pagina feita em Html e Css,</h2>
+
 
 ![alt](https://raw.githubusercontent.com/diegobda/instagram-clone/master/Screenshot%20from%202022-08-13%2023-59-41.png)
 
