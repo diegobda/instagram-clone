@@ -5,7 +5,7 @@ Projeto Bootcamp Inpulso junto com a Dio
 
 
 
-![alt](https://raw.githubusercontent.com/diegobda/instagram-clone/master/img/image72.png
+![alt](https://raw.githubusercontent.com/diegobda/instagram-clone/master/img/image72.png)
 
 
 <h2>Exemplo de pagina feito em Html e Css,</h2>
