@@ -15,7 +15,11 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cbccc8)) fixed;
+
 }
+
+
 
 .instagram-wrapper {
     display: flex;
@@ -35,6 +39,24 @@ body {
 .instagram-phone img {
     height: 50rem;
 }
+
+.fa-whatsapp  {
+    color:rgb(7, 0, 0);
+    flex-direction: column;
+    display: flex;
+    background:
+    linear-gradient(#25d366,#25d366)10px 84%/10px 9px no-repeat,
+    radial-gradient(circle at center, #25d366 63%,transparent 0);
+}
+
+.title-zap {
+   font-size: 25px;
+   flex-direction: column;
+
+   color: inherit;
+}
+
+
 
 .instagram-continue {
     display: flex;
@@ -94,15 +116,22 @@ body {
 
 .link-blue {
     color: #0095f6;
+    font-size: 12px;
+    
+}
+
+.whatsapp-link {
+
+    color: darkgreen;
 }
 
 .get-the-app {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 1.0rem 0;
 }
 
 .download {
@@ -127,6 +156,58 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+
+
+
+.carousel {
+    overflow: hidden;
+    max-width: 450px;
+    position: relative;
+  }
+  
+  .carousel .carousel__item,
+  .carousel .carousel__item--hidden {
+    display: none;
+  }
+  
+  .carousel .carousel__item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  
+  .carousel .carousel__item--visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+  }
+  
+  .carousel .carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel .carousel__actions button {
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #242424;
+  }
+  
+  .carousel .carousel__actions button[data-js="carousel__button--prev"] {
+    margin-left: 20px;
+  }
+  
+  .carousel .carousel__actions button[data-js="carousel__button--next"] {
+    margin-right: 20px;
+  }
 /* media queries */
 
 
@@ -156,4 +237,19 @@ body {
     .group {
         border: 1px solid transparent;
     }
+    
 }
+
+@keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
+
+
+/* Stilos de fotos background */
+
